@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Limmyphone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Gyg-IS-yDB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lge-z4-3BL">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                        <color key="backgroundColor" red="0.31764705882352939" green="0.92941176470588238" blue="1" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="C"/>
+                                        <connections>
+                                            <action selector="playNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0eQ-eg-0IY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8t-h0-kjD">
+                                        <rect key="frame" x="0.0" y="128" width="414" height="128"/>
+                                        <color key="backgroundColor" red="0.18431372549019609" green="1" blue="0.16470588235294117" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="D"/>
+                                        <connections>
+                                            <action selector="playNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Clx-At-awJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8z-ea-oOw">
+                                        <rect key="frame" x="0.0" y="256" width="414" height="128"/>
+                                        <color key="backgroundColor" red="0.99199882279999996" green="1" blue="0.24693012810000001" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="E"/>
+                                        <connections>
+                                            <action selector="playNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zwX-TR-uzt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OF-9p-6O3">
+                                        <rect key="frame" x="0.0" y="384" width="414" height="128"/>
+                                        <color key="backgroundColor" red="1" green="0.1390364123314175" blue="0.15125141846416856" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="F"/>
+                                        <connections>
+                                            <action selector="playNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="26v-c3-pLL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUh-4q-sbC">
+                                        <rect key="frame" x="0.0" y="512" width="414" height="128"/>
+                                        <color key="backgroundColor" red="1" green="0.26235804089999998" blue="0.54325489800000004" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="G"/>
+                                        <connections>
+                                            <action selector="playNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ReR-rX-CS0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MR7-yB-gMP">
+                                        <rect key="frame" x="0.0" y="640" width="414" height="128"/>
+                                        <color key="backgroundColor" red="0.40030866450000002" green="0.2759002471" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="A"/>
+                                        <connections>
+                                            <action selector="playNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xzB-g2-h2m"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHa-rZ-PeS">
+                                        <rect key="frame" x="0.0" y="768" width="414" height="128"/>
+                                        <color key="backgroundColor" red="0.31811745285568083" green="0.92780825470970019" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="B"/>
+                                        <connections>
+                                            <action selector="playNote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UTv-mF-kpW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Gyg-IS-yDB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8CP-dZ-NJh"/>
+                            <constraint firstItem="Gyg-IS-yDB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="9Uu-tw-Ub2"/>
+                            <constraint firstAttribute="trailing" secondItem="Gyg-IS-yDB" secondAttribute="trailing" id="KeY-pm-eoO"/>
+                            <constraint firstAttribute="bottom" secondItem="Gyg-IS-yDB" secondAttribute="bottom" id="hju-2z-Iad"/>
+                            <constraint firstItem="Gyg-IS-yDB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oDg-p4-SxQ"/>
+                            <constraint firstItem="Gyg-IS-yDB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zfO-hl-LcB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>

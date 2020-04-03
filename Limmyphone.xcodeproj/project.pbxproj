@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2A342624376BA000D812FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A342524376BA000D812FF /* AppDelegate.swift */; };
+		3F2A342824376BA000D812FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A342724376BA000D812FF /* SceneDelegate.swift */; };
+		3F2A342A24376BA000D812FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A342924376BA000D812FF /* ViewController.swift */; };
+		3F2A342D24376BA000D812FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A342B24376BA000D812FF /* Main.storyboard */; };
+		3F2A342F24376BA200D812FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A342E24376BA200D812FF /* Assets.xcassets */; };
+		3F2A343224376BA200D812FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A343024376BA200D812FF /* LaunchScreen.storyboard */; };
+		3F2A34422437894100D812FF /* C in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A343B2437894000D812FF /* C */; };
+		3F2A34432437894100D812FF /* G in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A343C2437894100D812FF /* G */; };
+		3F2A34442437894100D812FF /* E in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A343D2437894100D812FF /* E */; };
+		3F2A34452437894100D812FF /* A in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A343E2437894100D812FF /* A */; };
+		3F2A34462437894100D812FF /* F in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A343F2437894100D812FF /* F */; };
+		3F2A34472437894100D812FF /* D in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A34402437894100D812FF /* D */; };
+		3F2A34482437894100D812FF /* B in Resources */ = {isa = PBXBuildFile; fileRef = 3F2A34412437894100D812FF /* B */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2A342224376BA000D812FF /* Limmyphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Limmyphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2A342524376BA000D812FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F2A342724376BA000D812FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F2A342924376BA000D812FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F2A342C24376BA000D812FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F2A342E24376BA200D812FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F2A343124376BA200D812FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F2A343324376BA200D812FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2A343B2437894000D812FF /* C */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = C; path = sounds/C; sourceTree = SOURCE_ROOT; };
+		3F2A343C2437894100D812FF /* G */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = G; path = sounds/G; sourceTree = SOURCE_ROOT; };
+		3F2A343D2437894100D812FF /* E */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = E; path = sounds/E; sourceTree = SOURCE_ROOT; };
+		3F2A343E2437894100D812FF /* A */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = A; path = sounds/A; sourceTree = SOURCE_ROOT; };
+		3F2A343F2437894100D812FF /* F */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = F; path = sounds/F; sourceTree = SOURCE_ROOT; };
+		3F2A34402437894100D812FF /* D */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = D; path = sounds/D; sourceTree = SOURCE_ROOT; };
+		3F2A34412437894100D812FF /* B */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = B; path = sounds/B; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2A341F24376BA000D812FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2A341924376BA000D812FF = {
+			isa = PBXGroup;
+			children = (
+				3F2A342424376BA000D812FF /* Limmyphone */,
+				3F2A342324376BA000D812FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F2A342324376BA000D812FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F2A342224376BA000D812FF /* Limmyphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F2A342424376BA000D812FF /* Limmyphone */ = {
+			isa = PBXGroup;
+			children = (
+				3F2A342524376BA000D812FF /* AppDelegate.swift */,
+				3F2A342724376BA000D812FF /* SceneDelegate.swift */,
+				3F2A342924376BA000D812FF /* ViewController.swift */,
+				3F2A342B24376BA000D812FF /* Main.storyboard */,
+				3F2A342E24376BA200D812FF /* Assets.xcassets */,
+				3F2A343024376BA200D812FF /* LaunchScreen.storyboard */,
+				3F2A343324376BA200D812FF /* Info.plist */,
+				3F2A343E2437894100D812FF /* A */,
+				3F2A34412437894100D812FF /* B */,
+				3F2A343B2437894000D812FF /* C */,
+				3F2A34402437894100D812FF /* D */,
+				3F2A343D2437894100D812FF /* E */,
+				3F2A343F2437894100D812FF /* F */,
+				3F2A343C2437894100D812FF /* G */,
+			);
+			path = Limmyphone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F2A342124376BA000D812FF /* Limmyphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2A343624376BA200D812FF /* Build configuration list for PBXNativeTarget "Limmyphone" */;
+			buildPhases = (
+				3F2A341E24376BA000D812FF /* Sources */,
+				3F2A341F24376BA000D812FF /* Frameworks */,
+				3F2A342024376BA000D812FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Limmyphone;
+			productName = Limmyphone;
+			productReference = 3F2A342224376BA000D812FF /* Limmyphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F2A341A24376BA000D812FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Mark Robson";
+				TargetAttributes = {
+					3F2A342124376BA000D812FF = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 3F2A341D24376BA000D812FF /* Build configuration list for PBXProject "Limmyphone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F2A341924376BA000D812FF;
+			productRefGroup = 3F2A342324376BA000D812FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F2A342124376BA000D812FF /* Limmyphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F2A342024376BA000D812FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2A34462437894100D812FF /* F in Resources */,
+				3F2A34482437894100D812FF /* B in Resources */,
+				3F2A34432437894100D812FF /* G in Resources */,
+				3F2A343224376BA200D812FF /* LaunchScreen.storyboard in Resources */,
+				3F2A342F24376BA200D812FF /* Assets.xcassets in Resources */,
+				3F2A34422437894100D812FF /* C in Resources */,
+				3F2A34472437894100D812FF /* D in Resources */,
+				3F2A34442437894100D812FF /* E in Resources */,
+				3F2A34452437894100D812FF /* A in Resources */,
+				3F2A342D24376BA000D812FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F2A341E24376BA000D812FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2A342A24376BA000D812FF /* ViewController.swift in Sources */,
+				3F2A342624376BA000D812FF /* AppDelegate.swift in Sources */,
+				3F2A342824376BA000D812FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F2A342B24376BA000D812FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2A342C24376BA000D812FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F2A343024376BA200D812FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F2A343124376BA200D812FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F2A343424376BA200D812FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F2A343524376BA200D812FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F2A343724376BA200D812FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4F93MNJX8;
+				INFOPLIST_FILE = Limmyphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.digioli.Limmyphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F2A343824376BA200D812FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4F93MNJX8;
+				INFOPLIST_FILE = Limmyphone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.digioli.Limmyphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F2A341D24376BA000D812FF /* Build configuration list for PBXProject "Limmyphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2A343424376BA200D812FF /* Debug */,
+				3F2A343524376BA200D812FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F2A343624376BA200D812FF /* Build configuration list for PBXNativeTarget "Limmyphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2A343724376BA200D812FF /* Debug */,
+				3F2A343824376BA200D812FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F2A341A24376BA000D812FF /* Project object */;
+}
